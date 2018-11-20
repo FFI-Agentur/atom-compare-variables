@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle compare-variables",
+        "command": "compare-variables:fetch"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "compare-variables",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "compare-variables:fetch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
